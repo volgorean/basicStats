@@ -1,3 +1,21 @@
-body {
-	background-color: lavender;
+body,html {
+	background-color: #468966;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+.statChart {
+	margin: 10px;
+	background-color: #FFF0A5;
+	float: left;
+}
+.medium {
+	width: calc(33.33% - 20px);
+	height: calc(33.33% - 20px);
+}
+
+.tall {
+	width: calc(33.33% - 20px);
+	height: calc(66.66% - 20px);
 }
